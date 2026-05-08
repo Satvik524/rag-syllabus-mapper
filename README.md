@@ -12,7 +12,6 @@ Unlike standard implementations that rely on high-level frameworks like LangChai
 * Custom text chunking logic for maintaining context.
 * Vectorization using **Scikit-learn**.
 * Retrieval based on **Cosine Similarity** to match syllabus topics with transcribed segments.
-* 
 * **Privacy-First Inference**: Runs local LLMs via **Ollama**, optimized for **Apple Silicon (M1)**.
 * **Timeline Mapping**: Generates precise timestamps so you can jump directly to the relevant part of a lecture.
 
