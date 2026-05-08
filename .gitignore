@@ -1,0 +1,8 @@
+audios/
+videos/
+jsons/
+__pycache__/
+*.joblib
+*.mp4
+*.mp3
+.DS_Store

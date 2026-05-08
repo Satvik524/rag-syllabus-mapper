@@ -1,0 +1,9 @@
+To find where supervised learning is taught, I'll look at the context data.
+
+According to Video #2, Supervised Learning:
+- "like we do with a process called Supervised Learning." - Start Time: 34.28
+- "...Supervised learning is when someone who knows the right answer, called a supervisor," - Start Time: 107.04
+
+These timestamps indicate that supervised learning occurs in classroom settings with teachers.
+
+Let me know if I can assist you further!
