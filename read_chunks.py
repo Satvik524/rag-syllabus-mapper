@@ -21,7 +21,7 @@ jsons = os.listdir("jsons")
 chunk_id = 0
 
 for json_file in jsons:
-    # It's good practice to skip non-json files (like .DS_Store on Mac)
+    #  skiping non-json files (like .DS_Store on Mac)
     if not json_file.endswith(".json"):
         continue
 
@@ -34,7 +34,6 @@ for json_file in jsons:
     end= time.time()
     print("created embeddings of {json_file} in ",end-start,"s")
     
-    # FIX 2: Added enumerate() to get both the index 'i' and the 'chunk' object
     for i, chunk in enumerate(content["chunks"]):
         chunk["chunk_id"] = chunk_id
         chunk_id += 1
@@ -47,3 +46,4 @@ for json_file in jsons:
 df= pd.DataFrame.from_records(my_dict)
 # Saving the dataframe
 joblib.dump(df,"embeddings.joblib")
+

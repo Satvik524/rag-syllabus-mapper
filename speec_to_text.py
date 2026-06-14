@@ -20,7 +20,6 @@ for i in audios:
             
             print(f"Transcribing {i}...")
             
-            # FIX 1: Use 'i' directly as it already has the extension
             result = model.transcribe(audio=f"audios/{i}", fp16=False)
             print(result["segments"])
 
